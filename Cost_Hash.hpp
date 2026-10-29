@@ -10,7 +10,7 @@ class Hash
     private:
         std::string Data = "";
         std::unordered_map<char,std::string> set;
-        std::string al = "qwertyuiop[]asdfghjkl;'zxcvbnm,./1234567890-= ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        std::string al = "qwertyuiop[]asdfghjkl;'zxcvbnm,./1234567890-= ABCDEFGHIJKLMNOPQRSTUVWXYZ><{}`~|";
         int getRandInt(int min,int max) 
         {   
             std::random_device rd;
