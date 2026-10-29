@@ -6,27 +6,27 @@ Cost_Hash is a hash system for hash data in runtime by class `Hash`
 ```cpp
 #include "Cost_Hash/Cost_Hash.hpp"
 ```
-1. create `Hash`
+2. create `Hash`
 ```cpp 
 Hash h;
 ```
 
-1. seed generator 
+3. seed generator 
 ```cpp
 h.seed();
 ```
 
-1. place data inside
+4. place data inside
 ```cpp
 h.data("example");
 ```
 
-1. hash the data 
+5. hash the data 
 ```cpp
 std::string hashedString = h.hash();
 ```
 
-1. rehash data
+6. rehash data
 ```cpp
 std::string  rehashedString = h.rehash(hashedString);
 ```
